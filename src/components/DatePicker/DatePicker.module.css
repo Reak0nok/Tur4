@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    background-color: #00C8FF;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.DateInput {
+    width: 100%;
+    max-width: 240px;
+    height: 48px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px 12px;
+    text-align: center;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.DateInput:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.DateInput::placeholder {
+    text-align: center;
+    color: #aaa;
+}
+
+.DateButton {
+    background-color: #CBD037;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.DateButton:hover {
+    background-color: #b0b030;
+}
+
+.DateButton:active {
+    background-color: #a0a020;
+}

@@ -1,0 +1,109 @@
+.container {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    background-color: #008ec1;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.TicketImg {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.right {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.TicketTitle {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+.TicketInfo {
+    color: white;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.TicketDescription {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+
+.BuyContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.Cost {
+    color: white;
+    font-size: 20px;
+}
+
+.BuyButton {
+    font-size: 18px;
+    background-color: #829300;
+    width: 150px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .TicketImg {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .right {
+        align-items: center;
+    }
+
+    .TicketTitle {
+        font-size: 20px;
+    }
+
+    .TicketInfo {
+        font-size: 14px;
+    }
+
+    .TicketDescription {
+        font-size: 16px;
+    }
+
+    .BuyButton {
+        width: 100%;
+        font-size: 16px;
+        height: 40px;
+    }
+
+    .Cost {
+        font-size: 18px;
+    }
+}

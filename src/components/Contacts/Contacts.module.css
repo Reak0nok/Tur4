@@ -1,0 +1,133 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 20px;
+}
+
+.title {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.imgContacts {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bottom {
+    margin-top: 60px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.ManagerContainer {
+    background-color: #86DFFF;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profession {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.Name {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.discription {
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 36px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .ManagerContainer {
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    .profession {
+        font-size: 24px;
+    }
+
+    .Name {
+        font-size: 18px;
+    }
+
+    .discription {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 28px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .imgContacts {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    .ManagerContainer {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .profession {
+        font-size: 20px;
+    }
+
+    .Name {
+        font-size: 16px;
+    }
+
+    .discription {
+        font-size: 14px;
+        margin-left: 0;
+    }
+}
